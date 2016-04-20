@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B0C09F1CC657C600F46FB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B0C09E1CC657C600F46FB4 /* main.m */; };
+		76B0C0A21CC657C600F46FB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B0C0A11CC657C600F46FB4 /* AppDelegate.m */; };
+		76B0C0A51CC657C600F46FB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B0C0A41CC657C600F46FB4 /* ViewController.m */; };
+		76B0C0A81CC657C600F46FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B0C0A61CC657C600F46FB4 /* Main.storyboard */; };
+		76B0C0AA1CC657C600F46FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B0C0A91CC657C600F46FB4 /* Assets.xcassets */; };
+		76B0C0AD1CC657C600F46FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B0C0AB1CC657C600F46FB4 /* LaunchScreen.storyboard */; };
+		76B0C0B81CC657C600F46FB4 /* ShapeJSONDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B0C0B71CC657C600F46FB4 /* ShapeJSONDrawTests.m */; };
+		76B0C0C41CC657E200F46FB4 /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B0C0C31CC657E200F46FB4 /* ShapeView.m */; };
+		76B0C0C71CC65FF800F46FB4 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B0C0C61CC65FF800F46FB4 /* Shape.m */; };
+		76B0C0CA1CC6604400F46FB4 /* Points.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B0C0C91CC6604400F46FB4 /* Points.m */; };
+		76B0C0CC1CC6606100F46FB4 /* Shapes.json in Resources */ = {isa = PBXBuildFile; fileRef = 76B0C0CB1CC6606100F46FB4 /* Shapes.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B0C0B41CC657C600F46FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B0C0921CC657C600F46FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B0C0991CC657C600F46FB4;
+			remoteInfo = ShapeJSONDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76B0C09A1CC657C600F46FB4 /* ShapeJSONDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeJSONDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B0C09E1CC657C600F46FB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76B0C0A01CC657C600F46FB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76B0C0A11CC657C600F46FB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76B0C0A31CC657C600F46FB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76B0C0A41CC657C600F46FB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76B0C0A71CC657C600F46FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76B0C0A91CC657C600F46FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76B0C0AC1CC657C600F46FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76B0C0AE1CC657C600F46FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B0C0B31CC657C600F46FB4 /* ShapeJSONDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeJSONDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B0C0B71CC657C600F46FB4 /* ShapeJSONDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeJSONDrawTests.m; sourceTree = "<group>"; };
+		76B0C0B91CC657C600F46FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B0C0C21CC657E200F46FB4 /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		76B0C0C31CC657E200F46FB4 /* ShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
+		76B0C0C51CC65FF800F46FB4 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		76B0C0C61CC65FF800F46FB4 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		76B0C0C81CC6604400F46FB4 /* Points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Points.h; sourceTree = "<group>"; };
+		76B0C0C91CC6604400F46FB4 /* Points.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Points.m; sourceTree = "<group>"; };
+		76B0C0CB1CC6606100F46FB4 /* Shapes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Shapes.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76B0C0971CC657C600F46FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B0C0B01CC657C600F46FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76B0C0911CC657C600F46FB4 = {
+			isa = PBXGroup;
+			children = (
+				76B0C09C1CC657C600F46FB4 /* ShapeJSONDraw */,
+				76B0C0B61CC657C600F46FB4 /* ShapeJSONDrawTests */,
+				76B0C09B1CC657C600F46FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76B0C09B1CC657C600F46FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B0C09A1CC657C600F46FB4 /* ShapeJSONDraw.app */,
+				76B0C0B31CC657C600F46FB4 /* ShapeJSONDrawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76B0C09C1CC657C600F46FB4 /* ShapeJSONDraw */ = {
+			isa = PBXGroup;
+			children = (
+				76B0C0CB1CC6606100F46FB4 /* Shapes.json */,
+				76B0C0A01CC657C600F46FB4 /* AppDelegate.h */,
+				76B0C0A11CC657C600F46FB4 /* AppDelegate.m */,
+				76B0C0A31CC657C600F46FB4 /* ViewController.h */,
+				76B0C0A41CC657C600F46FB4 /* ViewController.m */,
+				76B0C0A61CC657C600F46FB4 /* Main.storyboard */,
+				76B0C0A91CC657C600F46FB4 /* Assets.xcassets */,
+				76B0C0AB1CC657C600F46FB4 /* LaunchScreen.storyboard */,
+				76B0C0AE1CC657C600F46FB4 /* Info.plist */,
+				76B0C09D1CC657C600F46FB4 /* Supporting Files */,
+				76B0C0C21CC657E200F46FB4 /* ShapeView.h */,
+				76B0C0C31CC657E200F46FB4 /* ShapeView.m */,
+				76B0C0C81CC6604400F46FB4 /* Points.h */,
+				76B0C0C91CC6604400F46FB4 /* Points.m */,
+				76B0C0C51CC65FF800F46FB4 /* Shape.h */,
+				76B0C0C61CC65FF800F46FB4 /* Shape.m */,
+			);
+			path = ShapeJSONDraw;
+			sourceTree = "<group>";
+		};
+		76B0C09D1CC657C600F46FB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B0C09E1CC657C600F46FB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76B0C0B61CC657C600F46FB4 /* ShapeJSONDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				76B0C0B71CC657C600F46FB4 /* ShapeJSONDrawTests.m */,
+				76B0C0B91CC657C600F46FB4 /* Info.plist */,
+			);
+			path = ShapeJSONDrawTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76B0C0991CC657C600F46FB4 /* ShapeJSONDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B0C0BC1CC657C600F46FB4 /* Build configuration list for PBXNativeTarget "ShapeJSONDraw" */;
+			buildPhases = (
+				76B0C0961CC657C600F46FB4 /* Sources */,
+				76B0C0971CC657C600F46FB4 /* Frameworks */,
+				76B0C0981CC657C600F46FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShapeJSONDraw;
+			productName = ShapeJSONDraw;
+			productReference = 76B0C09A1CC657C600F46FB4 /* ShapeJSONDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76B0C0B21CC657C600F46FB4 /* ShapeJSONDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B0C0BF1CC657C600F46FB4 /* Build configuration list for PBXNativeTarget "ShapeJSONDrawTests" */;
+			buildPhases = (
+				76B0C0AF1CC657C600F46FB4 /* Sources */,
+				76B0C0B01CC657C600F46FB4 /* Frameworks */,
+				76B0C0B11CC657C600F46FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B0C0B51CC657C600F46FB4 /* PBXTargetDependency */,
+			);
+			name = ShapeJSONDrawTests;
+			productName = ShapeJSONDrawTests;
+			productReference = 76B0C0B31CC657C600F46FB4 /* ShapeJSONDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76B0C0921CC657C600F46FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = anoopm;
+				TargetAttributes = {
+					76B0C0991CC657C600F46FB4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					76B0C0B21CC657C600F46FB4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 76B0C0991CC657C600F46FB4;
+					};
+				};
+			};
+			buildConfigurationList = 76B0C0951CC657C600F46FB4 /* Build configuration list for PBXProject "ShapeJSONDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76B0C0911CC657C600F46FB4;
+			productRefGroup = 76B0C09B1CC657C600F46FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76B0C0991CC657C600F46FB4 /* ShapeJSONDraw */,
+				76B0C0B21CC657C600F46FB4 /* ShapeJSONDrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76B0C0981CC657C600F46FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B0C0AD1CC657C600F46FB4 /* LaunchScreen.storyboard in Resources */,
+				76B0C0AA1CC657C600F46FB4 /* Assets.xcassets in Resources */,
+				76B0C0A81CC657C600F46FB4 /* Main.storyboard in Resources */,
+				76B0C0CC1CC6606100F46FB4 /* Shapes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B0C0B11CC657C600F46FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B0C0961CC657C600F46FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B0C0CA1CC6604400F46FB4 /* Points.m in Sources */,
+				76B0C0A51CC657C600F46FB4 /* ViewController.m in Sources */,
+				76B0C0A21CC657C600F46FB4 /* AppDelegate.m in Sources */,
+				76B0C0C71CC65FF800F46FB4 /* Shape.m in Sources */,
+				76B0C0C41CC657E200F46FB4 /* ShapeView.m in Sources */,
+				76B0C09F1CC657C600F46FB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B0C0AF1CC657C600F46FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B0C0B81CC657C600F46FB4 /* ShapeJSONDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76B0C0B51CC657C600F46FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B0C0991CC657C600F46FB4 /* ShapeJSONDraw */;
+			targetProxy = 76B0C0B41CC657C600F46FB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76B0C0A61CC657C600F46FB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B0C0A71CC657C600F46FB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76B0C0AB1CC657C600F46FB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B0C0AC1CC657C600F46FB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76B0C0BA1CC657C600F46FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76B0C0BB1CC657C600F46FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76B0C0BD1CC657C600F46FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShapeJSONDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CG.test.ShapeJSONDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76B0C0BE1CC657C600F46FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShapeJSONDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CG.test.ShapeJSONDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76B0C0C01CC657C600F46FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShapeJSONDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CG.test.ShapeJSONDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapeJSONDraw.app/ShapeJSONDraw";
+			};
+			name = Debug;
+		};
+		76B0C0C11CC657C600F46FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShapeJSONDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CG.test.ShapeJSONDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapeJSONDraw.app/ShapeJSONDraw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76B0C0951CC657C600F46FB4 /* Build configuration list for PBXProject "ShapeJSONDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B0C0BA1CC657C600F46FB4 /* Debug */,
+				76B0C0BB1CC657C600F46FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B0C0BC1CC657C600F46FB4 /* Build configuration list for PBXNativeTarget "ShapeJSONDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B0C0BD1CC657C600F46FB4 /* Debug */,
+				76B0C0BE1CC657C600F46FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76B0C0BF1CC657C600F46FB4 /* Build configuration list for PBXNativeTarget "ShapeJSONDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B0C0C01CC657C600F46FB4 /* Debug */,
+				76B0C0C11CC657C600F46FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76B0C0921CC657C600F46FB4 /* Project object */;
+}
