@@ -23,7 +23,10 @@
     [super viewDidLoad];
         arrayOfShapes = [[NSMutableArray alloc] init];
     [self parseData];
-
+    myScrollView.minimumZoomScale=1.0;
+    myScrollView.maximumZoomScale=10.0;
+    myScrollView.delegate=self;
+    myScrollView.contentSize = self.view.frame.size;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -56,5 +59,12 @@
 - (void) render
 {
     [myview setUpDataWithArray:arrayOfShapes];
+}
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+
+{
+    // Return the image subview as the view to be zoomed
+    return myview;
 }
 @end

@@ -178,6 +178,7 @@
 				TargetAttributes = {
 					76B0C0991CC657C600F46FB4 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6UT7M6DT43;
 					};
 					76B0C0B21CC657C600F46FB4 = {
 						CreatedOnToolsVersion = 7.2;
@@ -361,7 +362,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShapeJSONDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CG.test.ShapeJSONDraw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,7 +375,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShapeJSONDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CG.test.ShapeJSONDraw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +427,7 @@
 				76B0C0BE1CC657C600F46FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76B0C0BF1CC657C600F46FB4 /* Build configuration list for PBXNativeTarget "ShapeJSONDrawTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +436,7 @@
 				76B0C0C11CC657C600F46FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
