@@ -48,7 +48,10 @@
                                                          options:0
                                                            error:&error];
     NSArray *responsejson = json[@"Shapes"];
-    
+    CGFloat width = [json[@"canvasWidth"] floatValue];
+    CGFloat height = [json[@"canvasHeight"] floatValue];
+    myview.canvasWidth = width;
+    myview.canvasHeight = height;
     for (int i=0; i<responsejson.count; i++) {
         Shape *shape = [[Shape alloc] initWithShapeData:responsejson[i]];
         [arrayOfShapes addObject:shape];

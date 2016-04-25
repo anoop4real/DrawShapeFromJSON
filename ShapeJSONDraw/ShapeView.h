@@ -11,7 +11,8 @@
 @interface ShapeView : UIView
 
 @property(nonatomic, strong)NSMutableArray *shapesArray;
-
+@property(nonatomic)CGFloat canvasWidth;
+@property(nonatomic)CGFloat canvasHeight;
 -(void) setUpDataWithArray:(NSMutableArray*) array;
 
 @end

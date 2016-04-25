@@ -12,6 +12,10 @@
 
 @implementation ShapeView
 
++(Class)layerClass
+{
+    return [CATiledLayer class];
+}
 
 - (id)initWithFrame:(CGRect)frame {
 
@@ -25,6 +29,9 @@
     self.shapesArray = array;
     [self setNeedsDisplay];
     self.contentMode = UIViewContentModeScaleAspectFit;
+    CATiledLayer *animLayer = (CATiledLayer *) self.layer;
+    animLayer.levelsOfDetailBias = 6;
+    animLayer.levelsOfDetail = 4;
 }
 -(void)drawInContext:(CGContextRef)context
 {
@@ -38,7 +45,7 @@
     CGContextSetStrokeColorWithColor(context, [UIColor blueColor].CGColor);
     CGFloat width = self.bounds.size.width;
     CGFloat height = self.bounds.size.height;
-    CGFloat scaleFactor = self.bounds.size.width/self.bounds.size.height;
+    CGFloat scaleFactor = 1.0;//self.bounds.size.width/self.bounds.size.height;
     // scale and translate to the standard cartesian coordinate system where the (0,0) is the center of the screen.
     CGContextScaleCTM(context, 1, -1);
     CGContextTranslateCTM(context, width*0.5, -height*0.5);
@@ -83,7 +90,7 @@
 - (void)applyCTMTransformsForContext:(CGContextRef)context frame:(CGRect)frame
 {
     // This is the actual size of the drawing, ideal it will be 2 times biggest x and 2times biggest y
-    CGSize graphicSize = CGSizeMake(800, 800);
+    CGSize graphicSize = CGSizeMake(self.canvasWidth, self.canvasHeight);
     CGSize viewSize = frame.size;
     
     // Translate by the origin of the frame to begin with.
